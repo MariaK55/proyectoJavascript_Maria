@@ -1,0 +1,13 @@
+{
+  "name": "libreriabj",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js --standalone libreriabj -o ./dist/libreriabj.js"
+  },
+  "author": "María Karla Castillo",
+  "license": "ISC"
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--<link rel="icon" type="image/svg+xml" href="favicon.svg" />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./style.css" />
+    
+   
+    <title>Partida de Blackjack</title>
+  </head>
+	<body>
+		<div id="title">Partida de Blackjack</div>
+		<div id="canvasDiv">
+		<canvas id="canvas" ></canvas>
+	    </div>
+		<div id="botones">
+			
+			<button type="button" onclick="libreriabj.pedirCarta()" id="pedir" class="button">Pedir Carta </button>
+			<button type="button" onclick="libreriabj.plantarme()" id="plantar" class="button" >Plantarme</button>
+			<button type="button" onclick="libreriabj.playAgain()" id="reset" class="button" >Jugar otra vez </button>
+		</div>
+		<div id="info"></div>
+		<script src="./dist/libreriabj.js" type="text/javascript"></script>
+	</body> 
+</html>

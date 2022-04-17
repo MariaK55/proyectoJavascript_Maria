@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand&display=swap");
+  
+#title {
+	font-size: 2em;
+	font-family: "Quicksand", sans-serif;
+	text-align: center;
+	margin: 3vh;
+	font-weight: bold;
+	/*color: rgb(18, 73, 18);*/
+  }
+
+#canvas {
+    width: 170vh;
+    height: 65vh;
+	border-radius: 2.5vh;
+	background-color: #247D24;
+	background-position: center;	
+  }
+    
+  #canvasDiv {
+	text-align: center;
+  }
+  
+  #botones {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+  }
+  
+  #info {
+	font-size: 1.5em;
+	text-align: center;
+	/*background-color:*/
+	margin-top: 3vh;
+	
+  }
+  
+  .button {
+	background-color: #247D24;
+	color: white;
+	font-size: 1em;
+	padding: 1.5vh 3vh;
+	margin-top: 3vh;
+	text-align: center;
+	display: inline-block;
+	border-radius: 10vh;
+	align-items: center;
+	justify-content: space-evenly;
+	cursor: pointer;
+	
+	
+  }
+  /*
+  .modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+*/
+
+  
